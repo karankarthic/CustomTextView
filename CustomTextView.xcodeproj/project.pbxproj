@@ -13,6 +13,8 @@
 		976E114A24EBE9540027E6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976E114824EBE9540027E6F4 /* Main.storyboard */; };
 		976E114C24EBE9570027E6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 976E114B24EBE9570027E6F4 /* Assets.xcassets */; };
 		976E114F24EBE9570027E6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 976E114D24EBE9570027E6F4 /* LaunchScreen.storyboard */; };
+		976E115724ECE36C0027E6F4 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976E115624ECE36C0027E6F4 /* CustomTextView.swift */; };
+		976E115924ECFAFE0027E6F4 /* HelperExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976E115824ECFAFE0027E6F4 /* HelperExtentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		976E114B24EBE9570027E6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		976E114E24EBE9570027E6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		976E115024EBE9570027E6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		976E115624ECE36C0027E6F4 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		976E115824ECFAFE0027E6F4 /* HelperExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperExtentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				976E114224EBE9540027E6F4 /* AppDelegate.swift */,
 				976E114424EBE9540027E6F4 /* SceneDelegate.swift */,
 				976E114624EBE9540027E6F4 /* ViewController.swift */,
+				976E115624ECE36C0027E6F4 /* CustomTextView.swift */,
+				976E115824ECFAFE0027E6F4 /* HelperExtentions.swift */,
 				976E114824EBE9540027E6F4 /* Main.storyboard */,
 				976E114B24EBE9570027E6F4 /* Assets.xcassets */,
 				976E114D24EBE9570027E6F4 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				976E114724EBE9540027E6F4 /* ViewController.swift in Sources */,
+				976E115924ECFAFE0027E6F4 /* HelperExtentions.swift in Sources */,
 				976E114324EBE9540027E6F4 /* AppDelegate.swift in Sources */,
+				976E115724ECE36C0027E6F4 /* CustomTextView.swift in Sources */,
 				976E114524EBE9540027E6F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
